@@ -2782,7 +2782,7 @@
         },
 
         "watch": {
-            "url": "/user/watched/:user/:repo",
+            "url": "/repos/:user/:repo/subscription",
             "method": "PUT",
             "params": {
                 "$user": null,
