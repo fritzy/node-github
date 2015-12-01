@@ -2791,7 +2791,7 @@
         },
 
         "un-watch": {
-            "url": "/user/watched/:user/:repo",
+            "url": "/repos/:user/:repo/subscription",
             "method": "DELETE",
             "params": {
                 "$user": null,
