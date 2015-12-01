@@ -6,7 +6,6 @@
             "protocol": "https",
             "host": "api.github.com",
             "port": 443,
-            "documentation": "https://developer.github.com/v3",
             "dateFormat": "YYYY-MM-DDTHH:MM:SSZ",
             "requestFormat": "json",
             "requestMedia": "application/vnd.github.v3+json"
@@ -2746,6 +2745,16 @@
             "url": "/user/watched",
             "method": "GET",
             "params": {
+                "$page": null,
+                "$per_page": null
+            }
+        },
+        
+        "get-subscriptions": {
+            "url": "/users/:user/subscriptions",
+            "method": "GET",
+            "params": {
+                "$user": null,
                 "$page": null,
                 "$per_page": null
             }
